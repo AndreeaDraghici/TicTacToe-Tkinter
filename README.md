@@ -20,3 +20,19 @@ Tkinter GUI Python
 ![img_2.png](img_2.png)
 
 
+-----------------------
+
+
+### Documentation
+
+https://docs.python.org/3/library/tk.html
+
+
+-----------------------
+
+### Release Note
+
+Initial Version 1.0.0
+
+
+----------------------
