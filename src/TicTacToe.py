@@ -464,6 +464,11 @@ def start() :
     clicked = True
     count = 0
 
+    build_buttons()
+
+
+def build_buttons() :
+    global button1, button2, button3, button4, button5, button6, button7, button8, button9
     # Building the buttons for the game
     button1 = Button(root, text=" ", font=("Helvetica, 20"), height=3, width=7, bg="SystemButtonFace",
                      command=lambda : buttonClicked(button1))
@@ -471,30 +476,25 @@ def start() :
                      command=lambda : buttonClicked(button2))
     button3 = Button(root, text=" ", font=("Helvetica, 20"), height=3, width=7, bg="SystemButtonFace",
                      command=lambda : buttonClicked(button3))
-
     button4 = Button(root, text=" ", font=("Helvetica, 20"), height=3, width=7, bg="SystemButtonFace",
                      command=lambda : buttonClicked(button4))
     button5 = Button(root, text=" ", font=("Helvetica, 20"), height=3, width=7, bg="SystemButtonFace",
                      command=lambda : buttonClicked(button5))
     button6 = Button(root, text=" ", font=("Helvetica, 20"), height=3, width=7, bg="SystemButtonFace",
                      command=lambda : buttonClicked(button6))
-
     button7 = Button(root, text=" ", font=("Helvetica, 20"), height=3, width=7, bg="SystemButtonFace",
                      command=lambda : buttonClicked(button7))
     button8 = Button(root, text=" ", font=("Helvetica, 20"), height=3, width=7, bg="SystemButtonFace",
                      command=lambda : buttonClicked(button8))
     button9 = Button(root, text=" ", font=("Helvetica, 20"), height=3, width=7, bg="SystemButtonFace",
                      command=lambda : buttonClicked(button9))
-
     # Arranging the buttons on the screen for the game
     button1.grid(row=0, column=0)
     button2.grid(row=0, column=1)
     button3.grid(row=0, column=2)
-
     button4.grid(row=1, column=0)
     button5.grid(row=1, column=1)
     button6.grid(row=1, column=2)
-
     button7.grid(row=2, column=0)
     button8.grid(row=2, column=1)
     button9.grid(row=2, column=2)
